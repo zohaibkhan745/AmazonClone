@@ -98,3 +98,34 @@ margin-left: 3px;
     font-size: 0.85rem;
     font-weight: 700px;
 }
+.panel 
+{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.panel-ops p {
+    display: inline;
+    margin-left: 10px;
+}
+.panel-all p{
+    width: 70%;
+    margin-left: 15px;
+}
+.panel-deals {
+    font-size: 0.9rem;
+    font-weight: 700;
+
+}
+.hero-section {
+    background-image: url("images/hero_image.jpg");
+    background-size: cover;
+    height: 380px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
